@@ -1,0 +1,36 @@
+.navbar_wrapper {
+  background-color: rgb(14, 13, 13);
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  border-bottom: 2px solid red;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+
+  color: #0071eb;
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.menu ul li {
+  margin-left: 50px;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+  .mobile_menu {
+    display: inline-block;
+  }
+}

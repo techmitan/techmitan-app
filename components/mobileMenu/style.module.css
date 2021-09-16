@@ -1,0 +1,38 @@
+
+.mobile_menu{
+    display: none;
+}
+
+.menu_screen{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left:0;
+    padding: 30px
+}
+
+.closeIcon{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu_screen ul{
+    list-style-type: none;
+}
+
+.menu_screen ul li{
+    margin-bottom: 30px;
+}
+
+
+
+
+
+@media (max-width: 768px){
+     .mobile_menu{
+        display: inline-block;
+    }
+   
+}

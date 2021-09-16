@@ -1,0 +1,16 @@
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  color: #0071eb;
+    margin: 30px auto;
+    
+}
+
+.title h2{
+    display: inline;
+    font-size: 32px;
+    border-bottom: 2px solid pink;
+    padding-bottom: 7px;
+    text-transform: uppercase;
+}
