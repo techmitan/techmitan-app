@@ -21,7 +21,7 @@ const About = () => {
           more using the latest and modern day web technologies.
         </p>
         <p>
-          We just don't create digital products, we solve all your technology
+          We just do not create digital products, we solve all your technology
           related problems be it hosting, digital marketing, development or
           design!
         </p>
