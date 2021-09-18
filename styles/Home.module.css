@@ -1,9 +1,9 @@
 .hero_text{
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
-  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
   padding: 20px;
   background: radial-gradient(rgba(22, 1, 1, 0.815), rgba(24, 23, 23, 0.829)), url(https://i.pinimg.com/originals/9f/f5/17/9ff51769cbba872d3b5a82039bb1e04c.jpg);
   background-repeat: no-repeat;
@@ -14,6 +14,11 @@
 .hero_text h1{
   font-size: 72px;
   line-height: 1.6;
+text-align: center;
+}
+
+.hero_text button{
+  margin-top: 30px;
 }
 
 
@@ -32,6 +37,15 @@
 
 .feature_text{
   flex: 1;
+
+}
+
+.feature_text h3{
+  font-size: 2.4rem;
+}
+
+.feature_text p{
+  color: rgb(175, 173, 173);
 }
 
 .box_grid{

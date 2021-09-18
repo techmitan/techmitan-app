@@ -52,6 +52,10 @@ hr{
   margin: 100px auto;
 }
 
+.text-center{
+  text-align: center;
+}
+
 .title{
   color: #0071eb;
   text-transform: uppercase;

@@ -5,6 +5,9 @@ import Image from "next/image";
 // reveal
 import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
+// material
+import Button from "@material-ui/core/Button";
+import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 
 export default function Home() {
   return (
@@ -24,6 +27,19 @@ export default function Home() {
             We make your ideas{" "}
             <span style={{ color: "#0071eb" }}>Digital.</span>
           </h1>
+          <div>
+            <Button
+              variant="contained"
+              color="primary"
+              startIcon={<WhatsAppIcon />}
+              size="large"
+              onClick={() => {
+                window.open("tel:+916261996166");
+              }}
+            >
+              Contact Now
+            </Button>
+          </div>
         </div>
       </Zoom>
 
@@ -231,8 +247,8 @@ export default function Home() {
         <Fade left>
           <h1>Lets make your next big idea, digital!</h1>
           <br />
-          <h2>Call Now</h2>
-          <h2>90000 11111</h2>
+          <h2>Contact Now</h2>
+          <h2 style={{ marginTop: "10px" }}>+91 62619 96166</h2>
         </Fade>
       </div>
     </div>

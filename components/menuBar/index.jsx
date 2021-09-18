@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./style.module.css";
 import Link from "next/link";
+import Button from "@material-ui/core/Button";
 
 const MenuBar = () => {
   return (
@@ -37,9 +38,16 @@ const MenuBar = () => {
         </li>
 
         <li>
-          <Link href="/account">
-            <a>My Account.</a>
-          </Link>
+          <Button
+            variant="contained"
+            color="primary"
+            size="large"
+            onClick={() => {
+              window.open("https://mytechmitan.netlify.app");
+            }}
+          >
+            My Account
+          </Button>
         </li>
       </ul>
     </div>

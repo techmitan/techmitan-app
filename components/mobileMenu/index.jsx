@@ -50,11 +50,11 @@ const MobileMenu = () => {
               </Link>
             </li>
 
-            <li>
+            {/* <li>
               <Link href="/order">
                 <a>Order Now.</a>
               </Link>
-            </li>
+            </li> */}
 
             <li>
               <Link href="/about">
