@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./style.module.css";
 import Link from "next/link";
+import Button from "@material-ui/core/Button";
+import { useRouter } from "next/router";
 
 import { useState } from "react";
 
@@ -10,6 +12,7 @@ import IconButton from "@material-ui/core/IconButton";
 
 const MobileMenu = () => {
   const [open, setOpen] = useState(false);
+  let router = useRouter();
 
   return (
     <div className={styles.mobile_menu}>
@@ -30,6 +33,7 @@ const MobileMenu = () => {
           <div className={styles.closeIcon}>
             <IconButton
               aria-label="menu"
+              color="primary"
               onClick={() => {
                 setOpen(!open);
               }}
@@ -39,39 +43,87 @@ const MobileMenu = () => {
           </div>
           <ul>
             <li>
-              <Link href="/">
-                <a>Home.</a>
-              </Link>
+              <Button
+                variant="text"
+                color="secondary"
+                size="large"
+                onClick={() => {
+                  router.push("/");
+                  setOpen(false);
+                }}
+              >
+                Home
+              </Button>
             </li>
 
             <li>
-              <Link href="/catalogue">
-                <a>Catalogue.</a>
-              </Link>
-            </li>
-
-            {/* <li>
-              <Link href="/order">
-                <a>Order Now.</a>
-              </Link>
-            </li> */}
-
-            <li>
-              <Link href="/about">
-                <a>About Us.</a>
-              </Link>
+              <Button
+                variant="text"
+                color="secondary"
+                size="large"
+                onClick={() => {
+                  router.push("/catalogue");
+                  setOpen(false);
+                }}
+              >
+                catalogue
+              </Button>
             </li>
 
             <li>
-              <Link href="/contact">
-                <a>Contact Us.</a>
-              </Link>
+              <Button
+                variant="text"
+                color="secondary"
+                size="large"
+                onClick={() => {
+                  router.push("/order");
+                  setOpen(false);
+                }}
+              >
+                order now
+              </Button>
             </li>
 
             <li>
-              <Link href="/account">
-                <a>My Account.</a>
-              </Link>
+              <Button
+                variant="text"
+                color="secondary"
+                size="large"
+                onClick={() => {
+                  router.push("/about");
+                  setOpen(false);
+                }}
+              >
+                about us
+              </Button>
+            </li>
+
+            <li>
+              <Button
+                variant="text"
+                color="secondary"
+                size="large"
+                onClick={() => {
+                  router.push("/contact");
+                  setOpen(false);
+                }}
+              >
+                contact us
+              </Button>
+            </li>
+
+            <li>
+              <Button
+                variant="text"
+                color="secondary"
+                size="large"
+                onClick={() => {
+                  router.push("/account");
+                  setOpen(false);
+                }}
+              >
+                my account
+              </Button>
             </li>
           </ul>
         </div>

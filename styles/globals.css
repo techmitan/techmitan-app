@@ -56,6 +56,10 @@ hr{
   text-align: center;
 }
 
+.fontBig p{
+  font-size: 1.5rem;
+}
+
 .title{
   color: #0071eb;
   text-transform: uppercase;

@@ -3,6 +3,7 @@ import styles from "./style.module.css";
 import Link from "next/link";
 import Button from "@material-ui/core/Button";
 
+
 const MenuBar = () => {
   return (
     <div className={styles.menu}>

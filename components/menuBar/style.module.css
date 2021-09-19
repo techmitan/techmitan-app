@@ -9,6 +9,16 @@
 .menu ul li{
     margin-left: 50px;
     font-weight: 600;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.menu ul li:hover{
+    border-bottom: 2px solid red;
+}
+
+.menu ul li:last-child:hover{
+    border-bottom: none;
 }
 
 

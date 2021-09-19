@@ -28,11 +28,14 @@ text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 50px auto;
+  padding: 150px 0;
+  border-bottom: 7px solid rgb(82, 82, 82);
 }
 
 .feature_image{
   flex: 1;
+  display: flex;
+  justify-content: center;
 }
 
 .feature_text{
@@ -68,6 +71,25 @@ text-align: center;
   color: #0071eb;
 }
 
+
+.icon_list{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+
+
+.icon_list h4{
+  margin-top: 15px;
+  font-size: 1.2rem;
+}
+
+.icon_list p{
+  color: gray;
+}
 
 
 @media (max-width: 768px){
