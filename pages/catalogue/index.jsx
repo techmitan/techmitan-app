@@ -4,10 +4,24 @@ import PageTitle from "../../components/pageTitle";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Head from "next/head";
 
 const Catalogue = () => {
   return (
     <div className="container">
+      <Head>
+        <title>tech mitan - catalogue</title>
+        <meta
+          name="description"
+          content="the best web development service in Chhattisgarh"
+        />
+        <meta
+          name="keywords"
+          content="WEB DEVELOPMENT, web design, website, app, HTML, CSS, JavaScript"
+        ></meta>
+
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <PageTitle>Catalogue</PageTitle>
       <div className={styles.box}>
         <div className={styles.title}>e-commerce</div>

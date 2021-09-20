@@ -1,10 +1,24 @@
 import React from "react";
 import PageTitle from "../../components/pageTitle";
 import Image from "next/image";
+import Head from "next/head";
 
 const About = () => {
   return (
     <div className="container text-center">
+      <Head>
+        <title>tech mitan - about us</title>
+        <meta
+          name="description"
+          content="the best web development service in Chhattisgarh"
+        />
+        <meta
+          name="keywords"
+          content="WEB DEVELOPMENT, web design, website, app, HTML, CSS, JavaScript"
+        ></meta>
+
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <PageTitle>About Us</PageTitle>
 
       <Image src="/about.svg" width={900} height={450} alt={"about-us"} />

@@ -44,7 +44,8 @@ const MenuBar = () => {
             color="primary"
             size="large"
             onClick={() => {
-              window.open("https://mytechmitan.netlify.app");
+              // window.open("https://mytechmitan.netlify.app");
+              alert("Will be live soon!");
             }}
           >
             My Account

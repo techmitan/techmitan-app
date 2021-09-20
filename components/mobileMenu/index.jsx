@@ -118,8 +118,9 @@ const MobileMenu = () => {
                 color="secondary"
                 size="large"
                 onClick={() => {
-                  router.push("/account");
-                  setOpen(false);
+                  // router.push("/account");
+                  // setOpen(false);
+                  alert("Will be live soon!");
                 }}
               >
                 my account

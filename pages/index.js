@@ -6,7 +6,6 @@ import Link from "next/link";
 // reveal
 import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
-import Bounce from "react-reveal/Bounce";
 
 // material
 import Button from "@material-ui/core/Button";
@@ -17,7 +16,15 @@ export default function Home() {
     <div>
       <Head>
         <title>tech mitan</title>
-        <meta name="description" content="the best digital service" />
+        <meta
+          name="description"
+          content="the best web development service in Chhattisgarh"
+        />
+        <meta
+          name="keywords"
+          content="WEB DEVELOPMENT, web design, website, app, HTML, CSS, JavaScript"
+        ></meta>
+
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

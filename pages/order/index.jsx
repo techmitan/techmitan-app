@@ -20,7 +20,8 @@ const Order = () => {
           color="primary"
           size="large"
           onClick={() => {
-            window.open("https://mytechmitan.netlify.app");
+            // window.open("https://mytechmitan.netlify.app");
+            alert("Will be live soon!");
           }}
         >
           Create Free Account Now
