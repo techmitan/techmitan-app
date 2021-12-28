@@ -44,7 +44,7 @@ export default function Home() {
               startIcon={<WhatsAppIcon />}
               size="large"
               onClick={() => {
-                window.open("tel:+916261996166");
+                window.open("tel:+917024077727");
               }}
             >
               Contact Now
@@ -419,6 +419,8 @@ export default function Home() {
           <h1>Lets make your next big idea, digital!</h1>
           <br />
           <h2>Contact Now</h2>
+ <h2 style={{ marginTop: "10px" }}>+91 70240 77727</h2>
+
           <h2 style={{ marginTop: "10px" }}>+91 62619 96166</h2>
         </Fade>
       </div>
@@ -434,7 +436,7 @@ export default function Home() {
               <Image src="/facebook.png" width={50} height={50} />
             </a>
           </Link>
-          <Link href="https://wa.me/+916261996166">
+          <Link href="https://wa.me/+917024077727">
             <a>
               <Image src="/whatsapp.png" width={50} height={50} />
             </a>
